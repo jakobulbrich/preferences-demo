@@ -9,4 +9,4 @@ The project files of my tutorial series **Building an Android Settings Screen - 
 [Part 3: How to Create Custom Preferences](https://medium.com/@JakobUlbrich/building-a-settings-screen-for-android-part-3-ae9793fd31ec "Part 3: How to Create Custom Preferences")
 
 -
-_Note that Google messed up the paddings of the list items (below API 21) with the v24.0.0 version of the support library._
+_Note that Google messed up the paddings of the list items with the v24.0.0 version of the support library (on devices below API 21)._
