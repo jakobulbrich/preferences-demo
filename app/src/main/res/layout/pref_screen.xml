@@ -13,6 +13,6 @@
     <FrameLayout
         android:id="@android:id/list_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/> <!-- Requires API 24! Waiting for a fix -->
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

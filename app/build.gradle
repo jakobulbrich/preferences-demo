@@ -25,5 +25,4 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.0'
     compile 'com.android.support:preference-v7:24.2.0'
     compile 'com.android.support:preference-v14:24.2.0'
-    // 23.4.0
 }
