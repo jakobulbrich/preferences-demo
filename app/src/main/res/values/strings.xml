@@ -16,4 +16,6 @@
 
     <string name="preferences_checkbox_title">CheckBox Preference</string>
     <string name="preferences_checkbox_summ">CheckBox Summary</string>
+
+    <string name="btn_custom">Button in custom layout</string>
 </resources>

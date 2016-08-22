@@ -20,7 +20,6 @@
             android:summary="@string/preferences_edittext_summ"
             android:title="@string/preferences_edittext_title"/>
 
-
         <android.support.v7.preference.CheckBoxPreference
             android:defaultValue="true"
             android:key="@string/pref_pref3"
@@ -29,18 +28,16 @@
 
     </android.support.v7.preference.PreferenceCategory>
 
-
     <android.support.v7.preference.PreferenceCategory
         android:title="@string/preferences_category_two">
 
         <de.jakobulbrich.preferences.TimePreference
+            style="@style/AppPreference.DialogPreference"
             android:defaultValue="90"
             android:key="@string/pref_pref4"
             android:summary="@string/preferences_time_summ"
-            android:title="@string/preferences_time_title"
-            /><!--style="@style/AppPreference.DialogPreference"-->
+            android:title="@string/preferences_time_title"/>
 
     </android.support.v7.preference.PreferenceCategory>
-
 
 </android.support.v7.preference.PreferenceScreen>
