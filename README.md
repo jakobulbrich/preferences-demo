@@ -13,4 +13,4 @@ The project files of my tutorial series **Building an Android Settings Screen - 
 -
 _**Note 1:** Google messed up the paddings of the list items with the v24.0.0 version of the support library (on devices below API 21)._
 
-_**Note 2:** Google changed the required id for custom layouts for PreferenceFragmentCompat in the update from revision 23.4.0 (R.id.list\_container) to 24.0.0 (android.R.id.list\_container). The new id requires API 24 which is obviously a bug._
+_**Note 2:** Google changed the required id for custom layouts for PreferenceFragmentCompat in the update from revision 23.4.0 (R.id.list\_container) to 24.0.0 (android.R.id.list\_container). Android Studio says that the new id requires API 24, but it also works on older APIs._
