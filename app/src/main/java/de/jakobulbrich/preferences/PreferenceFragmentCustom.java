@@ -17,18 +17,9 @@ public class PreferenceFragmentCustom extends PreferenceFragmentCompat {
      * {@inheritDoc}
      */
     @Override
-    public void onCreate(final Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
+    public void onCreatePreferences(Bundle bundle, String s) {
         // Load the Preferences from the XML file
         addPreferencesFromResource(R.xml.app_preferences);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public void onCreatePreferences(Bundle bundle, String s) {
     }
 
     /**
