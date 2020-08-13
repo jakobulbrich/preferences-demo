@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatDelegate;
 public class MainActivity extends AppCompatActivity {
 
     static {
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_AUTO);
     }
 
