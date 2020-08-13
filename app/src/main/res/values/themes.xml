@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+
+        <!-- Theme for the Preferences -->
+        <item name="preferenceTheme">@style/ThemeOverlay.App.Preferences</item>
+
+        <!-- Theme for all Alert Dialogs (e.g. from DialogPreference) -->
+        <item name="alertDialogTheme">@style/Theme.App.AlertDialog</item>
+    </style>
+
+    <style name="Theme.App" parent="Base.Theme.App" />
+
+    <!-- Custom Preference Theme inherits from the v14 support library Material Theme -->
+    <style name="ThemeOverlay.App.Preferences" parent="@style/PreferenceThemeOverlay.v14.Material">
+        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragment.App</item>
+
+        <!-- Padding in front of icon is too small on pre 21 -->
+        <item name="android:listPreferredItemPaddingStart">16dp</item>
+        <item name="android:listPreferredItemPaddingLeft">16dp</item>
+    </style>
+
+    <style name="Theme.App.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <!-- To tint the buttons -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeOverlay.App.AlertDialog.Content" parent="Theme.AppCompat.DayNight">
+        <!-- To tint EditText and TimePicker -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
