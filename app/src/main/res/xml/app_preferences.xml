@@ -32,7 +32,7 @@
     <android.support.v7.preference.PreferenceCategory android:title="@string/preferences_category_two">
 
         <de.jakobulbrich.preferences.TimePreference
-            style="@style/AppPreference.DialogPreference"
+            style="@style/Preference.App.DialogPreference"
             android:defaultValue="90"
             android:icon="@drawable/ic_time"
             android:key="@string/pref_pref4"
